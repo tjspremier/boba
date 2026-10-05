@@ -20,6 +20,7 @@ div.top h1,p {
 	position: relative;
 	float: left;
 	font-family: "Lucida Console", "Trebuchet MS", Arial, system-ui, sans-serif;
+	text-shadow: 2px 2px 5px lightgray;
 }
 div.top p {
 	clear: left;
@@ -36,4 +37,11 @@ div.top p {
 	box-sizing: border-box;
 	border-color: blue;
 	border-style: solid;
+	transition-duration: 0.5s;
+}
+#me:hover {
+	width: 55%;
+	height:55%;
+	max-width: 544px;
+	max-height: 324px;
 }
