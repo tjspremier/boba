@@ -27,4 +27,7 @@ div.top p {
 }
 #me {
 	float: right;
+	width: 25%;
+	height: 25%;
+	border-width: 2%;
 }
