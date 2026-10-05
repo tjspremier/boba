@@ -27,7 +27,13 @@ div.top p {
 }
 #me {
 	float: right;
-	width: 25%;
-	height: 25%;
-	border-width: 2%;
+	width: 50%;
+	height: 50%;
+	max-width: 512px;
+	max-height: 288px;
+	border-width: 5px;
+	border-radius: 5px;
+	box-sizing: border-box;
+	border-color: blue;
+	border-style: solid;
 }
