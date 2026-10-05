@@ -1,0 +1,30 @@
+body {
+	font-family: system-ui, sans-serif;
+	display: grid;
+	place-content: center;
+	min-height: 100vh;
+	margin: 0;
+	text-align: center;
+}
+
+div.top {
+	background-color: #9922FF;
+	box-sizing: border-box;
+	padding: 10px;
+	width: 100%;
+	min-height: 20%;
+	position: absolute;
+}
+
+div.top h1,p {
+	position: relative;
+	float: left;
+	font-family: "Lucida Console", "Trebuchet MS", Arial, system-ui, sans-serif;
+}
+div.top p {
+	clear: left;
+	text-align: top;
+}
+#me {
+	float: right;
+}
