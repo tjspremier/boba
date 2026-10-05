@@ -1,5 +1,5 @@
 body {
-	font-family: system-ui, sans-serif;
+	font-family: "Lucida Console", "Trebuchet MS", Arial, system-ui, sans-serif;
 	display: grid;
 	place-content: center;
 	min-height: 100vh;
@@ -19,8 +19,7 @@ div.top {
 div.top h1,p {
 	position: relative;
 	float: left;
-	font-family: "Lucida Console", "Trebuchet MS", Arial, system-ui, sans-serif;
-	text-shadow: 2px 2px 5px lightgray;
+	text-shadow: 2px 2px 5px lightgray; /* CSS Feature - text shadow!*/
 }
 div.top p {
 	clear: left;
@@ -35,11 +34,11 @@ div.top p {
 	border-width: 5px;
 	border-radius: 5px;
 	box-sizing: border-box;
-	border-color: blue;
+	border-color: blue; /* CSS Feature - border!*/
 	border-style: solid;
-	transition-duration: 0.5s;
+	transition-duration: 0.5s; /* CSS Feature - transition! */
 }
-#me:hover {
+#me:hover { /* CSS Feature - hover effect!*/
 	width: 55%;
 	height:55%;
 	max-width: 544px;
